@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+@import 'node-source-han-sans-sc/SourceHanSansSC-Regular-woff2.css';
+@import 'node-source-han-sans-sc/SourceHanSansSC-Medium-woff2.css';
+@import 'node-source-han-sans-sc/SourceHanSansSC-Bold-woff2.css';
+
+@theme {
+  --color-background: #0a0a0a;
+  --color-foreground: #ffffff;
+  --color-muted: #a3a3a3;
+  --font-sans: 'Source Han Sans SC', 'Noto Sans SC', sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply m-0 min-h-svh bg-background font-sans text-foreground antialiased;
+  }
+}
