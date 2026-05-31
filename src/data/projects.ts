@@ -40,6 +40,23 @@ export const projects: Project[] = [
     ],
   },
   {
+    id: 'kanban',
+    name: '任务看板系统',
+    description:
+        '本项目是基于Spring Boot与Vue 3构建的全栈任务看板系统，后端采用MyBatis-Plus实现数据持久化，通过JWT无状态认证、统一Result< T >返回结构及全局异常处理保障接口规范与安全，并利用自动填充机制简化元数据管理；前端基于Vite构建，使用Element Plus与Vue Router实现包含看板、任务、成员及评论在内的模块化单页应用，支持任务状态拖拽流转与基于Token的路由守卫控制，配套SQL脚本可实现快速部署与演示。',
+    techStack: [
+      'Spring Boot',
+      'MyBatis-Plus',
+      'MySQL',
+      'JWT',
+      'Vue 3',
+      'Vite',
+      'Vue Router',
+      'Axios',
+      'Element Plus',
+    ],
+  },
+  {
     id: 'waimai',
     name: '校园订餐平台',
     description:
