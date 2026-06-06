@@ -31,6 +31,11 @@ export const skills: Skill[] = [
       '熟练使用 SpringBoot3 + MyBatis-Plus 进行后端开发，理解 Spring IOC、AOP 核心思想。熟悉Linux常用命令，熟练使用Git、ApiFox、Maven等开发与项目管理工具',
   },
   {
+    name: '分布式与微服务',
+    description:
+        '了解Spring Cloud微服务组件，包括服务注册与发现、负载均衡、服务调用、熔断机制与API网关；了解分布式事务常见实现方式，如2PC、3PC、TCC及消息事务',
+  },
+  {
     name: 'AI辅助开发',
     description:
       '熟悉 Vibe Coding、Harness Engineering 等AI编程模式，具备 Prompt 工程优化能力，能使用 Claude Code 等AI工具辅助编码与项目开发',
