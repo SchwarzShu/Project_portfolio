@@ -33,7 +33,7 @@ export const skills: Skill[] = [
   {
     name: '分布式与微服务',
     description:
-        '了解Spring Cloud微服务组件，包括服务注册与发现、负载均衡、服务调用、熔断机制与API网关；了解分布式事务常见实现方式，如2PC、3PC、TCC及消息事务',
+        '了解Spring Cloud微服务组件，包括服务注册与发现、负载均衡、服务调用、熔断机制与API网关；熟悉RabbitMQ消息队列的核心概念与应用，并对Kafka、RocketMQ等主流消息中间件有基本了解；了解分布式事务常见实现方式，如2PC、3PC、TCC及消息事务',
   },
   {
     name: 'AI辅助开发',
