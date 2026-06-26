@@ -4,7 +4,7 @@ export const heroContent = {
   name: '舒旭豪SchwarzShu',
   role: 'Java开发工程师 / AI工程研发',
   bio: 'Great ideals but through selfless struggle and sacrifice to achieve.',
-  avatarSrc: 'https://tuchuang.magicshushu.top/images/20260516163746533.jpg',
+  avatarSrc: 'https://tuchuang.magicshushu.top/images/20260626214740177.jpg',
   avatarAlt: '个人头像',
   initials: '舒',
 }
